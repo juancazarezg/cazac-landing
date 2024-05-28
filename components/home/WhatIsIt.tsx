@@ -23,7 +23,7 @@ const WhatIsIt = () => {
                 }}
                 className="text-3xl"
             >
-                You have an idea. We make it happen. <br/>Software development from {" "}
+                You have an idea. We develop it. Together we operate. <br/>Software development from {" "}
                 <Highlight className="text-black dark:text-white">
                     scratch to production.
                 </Highlight>
