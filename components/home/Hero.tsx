@@ -1,7 +1,6 @@
 'use client'
 import React from "react";
 import { FlipWords } from "../ui/flip-words";
-import { AuroraBackground } from "../ui/aurora-background";
 import { motion } from "framer-motion";
 
 export function HeroCazac() {

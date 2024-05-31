@@ -9,21 +9,16 @@ const WhatIsIt = () => {
     return (
         <motion.div className='flex flex-col h-[50vh] mx-auto font-normal align-center text-neutral-600 dark:text-neutral-400 text-center w-full md:w-3/4'>
             <motion.h1
-                initial={{
-                    opacity: 0,
-                    y: 20,
-                }}
-                animate={{
-                    opacity: 1,
-                    y: [20, -5, 0],
-                }}
+                initial={{ opacity: 0.0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 transition={{
-                    duration: 0.5,
-                    ease: [0.4, 0.0, 0.2, 1],
+                    delay: 0.3,
+                    duration: 0.8,
+                    ease: "easeInOut",
                 }}
-                className="text-3xl"
+                className="text-3xl leading-10 p-5"
             >
-                You have an idea. We develop it. Together we operate. <br/>Software development from {" "}
+                You have the <span style={{textDecoration:'underline'}}>idea</span>. <br/>We <span style={{textDecoration:'underline'}}>develop</span> it. <br/>Together, we make it <span style={{textDecoration:'underline'}}>work</span>. <br/>Software development from {" "}
                 <Highlight className="text-black dark:text-white">
                     scratch to production.
                 </Highlight>

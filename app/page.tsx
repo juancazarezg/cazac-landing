@@ -1,10 +1,11 @@
+import { Contact } from "@/components/home/Contact";
+import Experience from "@/components/home/Experience";
 import { HeroCazac } from "@/components/home/Hero";
 import HowWeWork from "@/components/home/HowWeWork";
 import Navbar from "@/components/home/Navbar";
+import OurWork from "@/components/home/OurWork";
 import WhatIsIt from "@/components/home/WhatIsIt";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import { useRef } from "react";
-
 export default function Home() {
 
     return (
@@ -12,10 +13,11 @@ export default function Home() {
             <Navbar/>
             <AuroraBackground>
                 <HeroCazac />
+                <OurWork />
                 <WhatIsIt />
                 <HowWeWork />
-                <div className="h-screen">
-                </div>
+                <Experience />
+                <Contact />
             </AuroraBackground>
         </main>
     );
