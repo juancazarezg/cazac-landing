@@ -20,7 +20,7 @@ export default function Experience() {
     ];
     return (
         <>
-            <div className="flex items-center justify-center  w-full">
+            <div className="flex items-center justify-center  w-full h-70 p-5">
                 <motion.div
                     initial={{ opacity: 0.0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -63,10 +63,10 @@ export default function Experience() {
                         </div>
                         <div className="p-10 flex flex-col justify-center items-center">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-4 p-2">
-                                <div>
+                                <div className="w-full flex justify-center">
                                     <Image src="/logos-cloud/aws.png" alt="aws logo" width={100} height={100} />
                                 </div>
-                                <div>
+                                <div className="w-full flex justify-center">
                                     <Image src="/logos-cloud/google-cloud.png" alt="gcp logo" width={200} height={100} />
                                 </div>
                             </div>

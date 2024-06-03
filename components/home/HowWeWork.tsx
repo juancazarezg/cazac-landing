@@ -35,7 +35,7 @@ export function HowWeWork() {
                 <h1 className="text-3xl text-neutral-600 dark:text-neutral-400">How we work</h1>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-4">
                 {
                     steps.map((step, index) => (
                         <motion.div
